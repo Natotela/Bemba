@@ -17,4 +17,4 @@ Action=org.freedesktop.login1.hibernate;org.freedesktop.login1.handle-hibernate-
 ResultActive=yes" >> 1.pkla
 
 sudo mv 1.pkla /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla
-dconf write /org/compiz/profiles/unity/plugins/unityshell/icon-size 64
+dconf write /org/compiz/profiles/unity/plugins/unityshell/icon-size 35
