@@ -3,6 +3,7 @@ sudo apt-get install compizconfig-settings-manager
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 2
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 2
 gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+gsettings set org.gnome.desktop.peripherals.keyboard repeat true
 
 
 sudo echo "
